@@ -1,0 +1,6 @@
+server/JCoincheServerHandler.class
+server/JCoincheServerChannelInitializer.class
+server/Lobby.class
+server/Game.class
+server/JCoincheServer.class
+server/StackCard.class

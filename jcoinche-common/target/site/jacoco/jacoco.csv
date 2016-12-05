@@ -1,0 +1,50 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Info.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Play.Builder,622,0,70,0,169,0,77,0,42,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Info.Builder,245,0,22,0,80,0,38,0,27,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Connection.Builder,448,0,28,0,121,0,52,0,38,0
+jcoinche-common,protomsg,CoincheMsg.Card,359,0,38,0,107,0,53,0,33,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Start.Builder,694,0,74,0,193,0,85,0,48,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Play,387,0,37,0,105,0,55,0,36,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.TypeRequestClient.new Internal.EnumLiteMap() {...},6,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Connection.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.PlayConfirm.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.PlayConfirm.Builder,344,0,44,0,99,0,53,0,31,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Builder,1195,0,178,0,330,0,161,0,72,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Info.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg,858,0,156,0,207,0,129,0,48,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Connection,655,0,76,0,165,0,77,0,37,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Connection,306,0,29,0,94,0,47,0,32,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Annouce.Builder,246,0,18,0,79,0,40,0,31,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Play.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Start,494,0,55,0,132,0,67,0,38,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Builder,1031,0,148,0,288,0,140,0,66,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Connection.Builder,180,0,14,0,57,0,32,0,25,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.TypeRequestServer,210,0,16,0,40,0,24,0,12,0
+jcoinche-common,protomsg,CoincheMsg,306,0,0,0,43,0,5,0,5,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Play.Builder,344,0,44,0,99,0,53,0,31,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Connection.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Annouce,412,0,47,0,120,0,59,0,34,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Info.Builder,245,0,22,0,80,0,38,0,27,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Start.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Play.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.TypeRequestClient,158,0,12,0,32,0,20,0,12,0
+jcoinche-common,protomsg,CoincheMsg.Card.Builder,213,0,16,0,68,0,36,0,28,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg,804,0,140,0,198,0,119,0,46,0
+jcoinche-common,protomsg,CoincheMsg.new Descriptors.FileDescriptor.InternalDescriptorAssigner() {...},8,0,0,0,3,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.Card.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.Info,348,0,33,0,108,0,50,0,33,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.PlayConfirm,361,0,45,0,104,0,57,0,34,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Play,361,0,45,0,104,0,57,0,34,0
+jcoinche-common,protomsg,CoincheMsg.ServerMsg.TypeRequestServer.new Internal.EnumLiteMap() {...},6,0,0,0,2,0,2,0,2,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Info,348,0,33,0,108,0,50,0,33,0
+jcoinche-common,protomsg,CoincheMsg.ClientMsg.Annouce.new AbstractParser() {...},10,0,0,0,2,0,2,0,2,0
+jcoinche-common,common,Card.InfoCard,5,151,0,0,0,16,1,3,1,3
+jcoinche-common,common,WorkerTab,0,40,1,5,0,10,1,5,0,3
+jcoinche-common,common,Card.Trump,5,79,0,0,0,10,1,3,1,3
+jcoinche-common,common,ClientInfo,484,63,48,0,108,23,49,9,25,9
+jcoinche-common,common,Card,0,127,0,2,0,25,0,5,0,4
+jcoinche-common,common,Deck,0,88,0,4,0,15,0,8,0,6
+jcoinche-common,common,Annouce,0,68,1,7,0,17,1,10,0,7

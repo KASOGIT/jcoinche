@@ -1,0 +1,92 @@
+syntax = "proto3";
+
+package protomsg;
+
+option java_outer_classname = "CoincheMsg";
+
+message Card {
+
+    int32 type = 1;
+    int32 value = 2;
+}
+
+message ClientMsg {
+
+    enum TypeRequestClient {
+        ERROR = 0;
+        CONNECTION = 1;
+        ANNOUCE = 2;
+        INFO = 3;
+        PLAY = 4;
+    }
+
+    TypeRequestClient       typeRequest = 1;
+    int32       idClient = 2;
+    Annouce     announce = 3;
+    Play        play = 4;
+    Connection  connect = 5;
+    Info info = 6;
+
+    message Annouce {
+        int32 value = 1;
+        int32 trump = 3;
+        int32  pass = 2;
+    }
+
+    message Play {
+        Card    card = 1;
+    }
+
+    message Connection {
+        int32   idGame = 1;
+    }
+
+    message Info {
+        string info = 1;
+    }
+}
+
+message ServerMsg {
+
+    enum    TypeRequestServer {
+        ERROR = 0;
+        CONNECTION = 1;
+        START = 2;
+        ANNOUCE = 3;
+        INFO = 4;
+        PLAY = 5;
+        FINISH = 6;
+        ERROR_PLAY = 7;
+        PLAY_CONFIRM = 8;
+    }
+
+    TypeRequestServer   typeRequest = 1;
+    Connection  connect = 2;
+    Info info = 3;
+    Start   start = 4;
+    Play    play = 5;
+    PlayConfirm playConfirm = 6;
+
+    message Connection {
+        repeated int32 idGame = 1;
+        repeated int32 idPlayers = 2;
+    }
+
+    message PlayConfirm {
+        Card card = 1;
+    }
+
+    message Info {
+        string infoGame = 1;
+    }
+
+    message Start {
+        bool    team = 1;
+        int32   idPlayer = 2;
+        repeated Card cards = 3;
+    }
+
+    message Play {
+        repeated Card pile = 1;
+    }
+}
